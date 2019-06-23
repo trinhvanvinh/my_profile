@@ -1,14 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <h1>Mai ban nên đi làm đừng nghỉ nữa nhé! Thảo xinh!</h1>
-      </header>
-    </div>
+    <div className="">
+    <Layout>
+        <Header title="Option" scroll>
+            <Navigation>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </Navigation>
+        </Header>
+        <Drawer title="Option">
+            <Navigation>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </Navigation>
+        </Drawer>
+        <Content>
+            <div className="page-content" />
+        </Content>
+    </Layout>
+</div>
   );
 }
 
