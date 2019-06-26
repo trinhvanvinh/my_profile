@@ -20,7 +20,19 @@ export class Landingpage extends Component {
                             <p>HTML/CSS | Bootstrap | Javascript | ReactJS | React Native | Flutter | Java Android | NodeJS | MySQL | MongoDB | Cocos2d-js | Linux ... </p>
 
                             <div className="social-links" >
-                                <a></a>
+                                {/* LinkedIn */}
+                                <a href="http://google.com" rel="noopener noreferrer" target="_blank"  >
+                                    <i className="fa fa-linkedin-square" aria-hidden="true" />
+                                </a>
+                                {/* github */}
+                                <a href="http://google.com" rel="noopener noreferrer" target="_blank"  >
+                                    <i className="fa fa-github-square" aria-hidden="true" />
+                                </a>
+                                {/* freeCodeCamp */}
+                                <a href="http://google.com" rel="noopener noreferrer" target="_blank"  >
+                                    <i className="fa fa-free-code-camp" aria-hidden="true" />
+                                </a>
+
                             </div>
                         </div> 
                        
