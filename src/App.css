@@ -60,5 +60,10 @@
   font-size: 5em;
 }
 
+.projects-grid{
+  display: flex;
+  justify-content: space-between;
+}
+
 
 
