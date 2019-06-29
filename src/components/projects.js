@@ -44,7 +44,7 @@ export class Project extends Component {
                 <CardActions border >
                      <Button colored >GitHub</Button>
                      <Button colored >CodePen</Button>
-                     <Button colored >LiveDemo</Button>
+                     <Button colored >Live Demo</Button>
                 </CardActions>
                 <CardMenu style={{color: '#black'}} >
                      <IconButton name="share"  />
