@@ -1,20 +1,26 @@
 .header-color{
-  background: #74ebd5;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #00d2ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #928DAB, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
 }
 
 .landing-grid{
-  background: #74ebd5;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #00d2ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #928DAB, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   text-align: center;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  overflow-y: scroll;
+}
+
+.big-content{
+  overflow-y: scroll;
 }
 
 .avatar-img{
@@ -23,8 +29,8 @@
 }
 
 .banner-text{
-  background-color: black;
-  opacity: 0.7;
+  padding-top: 70px;
+  /* background-color: black; */
   width: 75%;
   margin: auto;
   border-radius: 10px;
@@ -67,7 +73,6 @@
 
 .contact-body{
   margin: auto;
-  background: grey;
   font-weight: bold;
   font-size: 2em;
   position: fixed;
@@ -84,9 +89,40 @@
   height: 550px;
   background: white;
   color: black;
-  border-radius: 20px;
-  
+  margin-bottom: 20px;
 }
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i{
+  padding-right: 2em;
+}
+
+.resume-right-col{
+  background-color: #ACB6E5;
+}
+
+.resume-right-col h2{
+  padding-left: 10px;
+}
+
+.resume-left img {
+  background: url('https://codelearn.io/CodeCamp/CodeCamp/styles/images/admin_em2.svg?v=1') 100% 100% no-repeat;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.resume-left h2{
+  text-align: center;
+}
+
 
 
 
