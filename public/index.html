@@ -16,18 +16,13 @@
 <script>
   var OneSignal = window.OneSignal || [];
   OneSignal.push(function() {
+    OneSignal.SERVICE_WORKER_PARAM = { scope: '/subdirectory/' };
+    OneSignal.SERVICE_WORKER_PATH = '../OneSignalSDKWorker.js'
+    OneSignal.SERVICE_WORKER_UPDATER_PATH = '../OneSignalSDKUpdaterWorker.js'
     OneSignal.init({
       appId: "865a5f92-ae14-43b8-8671-64a8847c62d8",
     });
   });
-
-  OneSignal.push(function () {
-        OneSignal.SERVICE_WORKER_PARAM = { scope: '/subdirectory/' };
-        OneSignal.SERVICE_WORKER_PATH = '../OneSignalSDKWorker.js'
-        OneSignal.SERVICE_WORKER_UPDATER_PATH = '../OneSignalSDKUpdaterWorker.js'
-        OneSignal.init(initConfig);
-    });
-
 
 </script>
 
