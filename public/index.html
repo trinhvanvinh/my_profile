@@ -9,8 +9,19 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
-
+    <link rel="manifest" href="/manifest.json" />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
     <title>Trinh Van Vinh - Profile</title>
+
+    <script>
+      var OneSignal = window.OneSignal || [];
+      OneSignal.push(function() {
+          OneSignal.init({
+              appId: "057b9b5e-3861-4eb8-a668-6d250e1c17e3",
+          });
+      });
+  </script>
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
