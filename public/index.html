@@ -10,21 +10,17 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
 
-    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
     <title>Trinh Van Vinh - Profile</title>
 
-<script>
-  var OneSignal = window.OneSignal || [];
-  OneSignal.push(function() {
-    OneSignal.SERVICE_WORKER_PARAM = { scope: '/subdirectory/' };
-    OneSignal.SERVICE_WORKER_PATH = '../OneSignalSDKWorker.js'
-    OneSignal.SERVICE_WORKER_UPDATER_PATH = '../OneSignalSDKUpdaterWorker.js'
-    OneSignal.init({
-      appId: "865a5f92-ae14-43b8-8671-64a8847c62d8",
-    });
-  });
-
-</script>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+      var OneSignal = window.OneSignal || [];
+      OneSignal.push(function() {
+        OneSignal.init({
+          appId: "865a5f92-ae14-43b8-8671-64a8847c62d8",
+        });
+      });
+    </script>
 
   </head>
   <body>
