@@ -29,7 +29,7 @@ export class Landingpage extends Component {
                                     <i className="fa fa-github-square" aria-hidden="true" />
                                 </a>
                                 {/* freeCodeCamp */}
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank"  >
+                                <a href="" rel="noopener noreferrer" target="_blank"  >
                                     <i className="fa fa-free-code-camp" aria-hidden="true" />
                                 </a>
 

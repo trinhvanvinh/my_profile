@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import {Grid, Cell} from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
-import Skill from './skill';
+import Skill from './skill'; 
+
 
 export class Resume extends Component {
 
@@ -13,9 +14,9 @@ export class Resume extends Component {
                     <Cell col={4} >
                         <div className="resume-left" style={{textAlign:'left'}} >
                             <img 
-                                src=".../vinh.jpg"
+                                src="https://media.licdn.com/dms/image/C5103AQEWBJYWd4FeWg/profile-displayphoto-shrink_200_200/0?e=1577923200&v=beta&t=-tWGeeR1aJfvrwFeWk9n9Y09-bOTLrLoiGMtcxqkXrs"
                                 alt="avata"
-                                 style={{height:'210px', }}     
+                                 style={{height:'200px', width: "200px", paddingTop:"30px" }}     
                             >
                             
                             </img>
@@ -57,6 +58,12 @@ export class Resume extends Component {
                          <hr style={{borderTop:'3px solid #e22947'}} />
                          <h2>Experience</h2>
                          <Experience
+                            startYear={2015}
+                            endYear={2016}
+                            jobName={"Development Java-Android in HC Group"}
+                            jobDescription={"Development Android Application for Tracking GPS Car"}
+                         />
+                         <Experience
                             startYear={2016}
                             endYear={2017}
                             jobName={"Development Java-Android in FPT Software"}
@@ -71,32 +78,40 @@ export class Resume extends Component {
                         <hr style={{borderTop:'3px solid #e22947'}} />
                         <h2>Skills</h2>
                         <Skill 
-                         skill='HTML/CSS'
-                         progress={90}
+                         skill='Cocos2d-JS'
+                         progress={85}
                          />
-                         <Skill
+                          <Skill
                          skill='Javascript'
-                         progress={90}
+                         progress={80}
+                         />
+                        <Skill 
+                         skill='HTML/CSS'
+                         progress={60}
                          />
                          <Skill
                          skill='Flutter   '
-                         progress={70}
+                         progress={60}
                          />
                          <Skill
                          skill='React'
-                         progress={80}
+                         progress={70}
                          />
                          <Skill
                          skill='Android/IOS'
                          progress={70}
                          />
                           <Skill
+                         skill='Database NoSQL'
+                         progress={50}
+                         />
+                          <Skill
                          skill='Linux'
-                         progress={60}
+                         progress={40}
                          />
                           <hr style={{borderTop:'3px solid #e22947'}} />
                           <h2>Activity</h2>
-                          <p>Good good</p>
+                          <p>  I am a bright person. I usually participate in sports activities at the company ... </p>
                     </Cell>
                 </Grid>
             </div>

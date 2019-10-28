@@ -8,11 +8,11 @@ export class Contact extends Component {
             <div className="contact-body" >
                 <Grid className="contact-grid" >
                     <Cell col={6} >
-                        <h2>Trinh Van Vinh</h2>
-                        <img src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+                        <h2>Trịnh Văn Vinh</h2>
+                        <img src="https://media.licdn.com/dms/image/C5103AQEWBJYWd4FeWg/profile-displayphoto-shrink_200_200/0?e=1577923200&v=beta&t=-tWGeeR1aJfvrwFeWk9n9Y09-bOTLrLoiGMtcxqkXrs"
                         style={{height:'250px'}} alt="avatar"
                          />
-                         <p style={{width: '75%' , margin:'auto' , paddingTop: '1em'  }} >Full Stack Developer </p>
+                         <p style={{width: '75%' , margin:'auto' , paddingTop: '1em'  }} >I am Developer </p>
                     </Cell>
                     <Cell col={6} >
                         <h2>Contact Me</h2>
